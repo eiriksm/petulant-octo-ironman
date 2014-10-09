@@ -9,5 +9,6 @@ ci:
 	./node_modules/browserify/bin/cmd.js test/test.js -o browser.js
 	./node_modules/karma/bin/karma start karma.conf.js 
 	make test-cov
+	./node_modules/jshint/bin/jshint index.js 
 
 .PHONY: test test-cov
