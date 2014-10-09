@@ -1,0 +1,23 @@
+{
+  "name": "petulant-octo-ironman",
+  "version": "1.0.0",
+  "description": "petulant-octo-ironman =====================",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eiriksm/petulant-octo-ironman.git"
+  },
+  "author": "Eirik S. Morland <eirik@morland.no>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eiriksm/petulant-octo-ironman/issues"
+  },
+  "homepage": "https://github.com/eiriksm/petulant-octo-ironman",
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "should": "^4.0.4"
+  }
+}
