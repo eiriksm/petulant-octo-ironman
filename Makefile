@@ -5,4 +5,9 @@ test-cov:
 test:
 	npm test
 
+ci:
+	./node_modules/browserify/bin/cmd.js test/test.js -o browser.js
+	./node_modules/karma/bin/karma start karma.conf.js 
+	make test-cov
+
 .PHONY: test test-cov
